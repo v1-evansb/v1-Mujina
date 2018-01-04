@@ -1,3 +1,25 @@
+## Version 1 customisation of the Mujina project
+
+#### Useful sections in this document
+
+* [Build Mujina](#build-mujina)
+* [Run the IDP](#run-the-idp)
+* [Run the SP](#run-the-sp)
+
+### Custom API call scripts
+* [View the custom API call scripts here](/api)
+
+### Mujina API Calls
+* [Resetting the IDP](#resetting-the-idp)
+* [Changing the entityID](#changing-the-entityid)
+* [Setting attribute foo to bar](#setting-attribute-foo-to-bar)
+* [Adding a user](#adding-a-user)
+* [Setting the Assertion Consumer Service (ACS) endpoint](#setting-the-assertion-consumer-service-acs-endpoint)
+
+##### The original project can be found @ https://github.com/OpenConext/Mujina
+
+---
+
 <pre>___  ___        _  _
 |  \/  |       (_)(_)
 | .  . | _   _  _  _  _ __    __ _
@@ -224,8 +246,9 @@ curl -v -H "Accept: application/json" \
         http://localhost:8080/api/signing-credential
 ```
 
-Setting attribute foo to bar (e.g. urn:mace:dir:attribute-def:foo to bar)
--------------------------------------------------------
+Setting attribute foo to bar
+----------------------------
+(e.g. urn:mace:dir:attribute-def:foo to bar)
 
 This API is only available on the IDP. **Note:** An attribute is always a list.
 

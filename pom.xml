@@ -17,8 +17,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
   <modelVersion>4.0.0</modelVersion>
 
-  <groupId>org.openconext</groupId>
-  <artifactId>mujina</artifactId>
+  <groupId>com.version1</groupId>
+  <artifactId>v1-mujina</artifactId>
   <version>5.0.7</version>
   <packaging>pom</packaging>
 
@@ -44,11 +44,10 @@
     <module>mujina-idp</module>
   </modules>
 
-
   <scm>
-    <connection>scm:git:git://github.com/OpenConext/Mujina.git</connection>
-    <developerConnection>scm:git:git@github.com:OpenConext/Mujina.git</developerConnection>
-    <url>scm:git:git@github.com:OpenConext/Mujina.git</url>
+    <connection>scm:git:git://github.com/v1-evansb/v1-Mujina</connection>
+    <developerConnection>scm:git:git@github.com:v1-evansb/v1-Mujina.git</developerConnection>
+    <url>scm:git:git@github.com:v1-evansb/v1-Mujina.git</url>
     <tag>HEAD</tag>
   </scm>
 
@@ -123,17 +122,20 @@
       </extension>
     </extensions>
   </build>
-  <distributionManagement>
-    <repository>
-      <id>openconext-releases</id>
-      <name>OpenConext public releases repository</name>
-      <url>dav:https://build.openconext.org/repository/public/releases</url>
-    </repository>
-    <snapshotRepository>
-      <id>openconext-snapshots</id>
-      <name>OpenConext public snapshot repository</name>
-      <url>dav:https://build.openconext.org/repository/public/snapshots</url>
-    </snapshotRepository>
-  </distributionManagement>
 
+  <!-- todo resolve correct build and code coverage locations if required -->
+  <!--
+    <distributionManagement>
+      <repository>
+        <id>openconext-releases</id>
+        <name>OpenConext public releases repository</name>
+        <url>dav:https://build.openconext.org/repository/public/releases</url>
+      </repository>
+      <snapshotRepository>
+        <id>openconext-snapshots</id>
+        <name>OpenConext public snapshot repository</name>
+        <url>dav:https://build.openconext.org/repository/public/snapshots</url>
+      </snapshotRepository>
+    </distributionManagement>
+   -->
 </project>
