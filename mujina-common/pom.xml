@@ -18,8 +18,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>org.openconext</groupId>
-    <artifactId>mujina</artifactId>
+    <groupId>com.version1</groupId>
+    <artifactId>v1-mujina</artifactId>
     <version>5.0.7</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
